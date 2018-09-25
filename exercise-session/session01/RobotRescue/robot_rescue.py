@@ -66,6 +66,16 @@ def DF(pos, depth):
 	# If no path found, return None.
 	return None
 
+# ID: perform iterative deepening search by gradually incrementing the maximum recursion depth.
+def ID(pos):
+	# Go over a predefined set of depths
+	for i in range(int(1e12)):
+		# Try to find solution with current maximum depth.
+		res = DF(pos, i)
+		# If solution found, return it. Else try again with incremented maximum depth.
+		if res != None:
+			return res
+
 """
 from copy import deepcopy
 
