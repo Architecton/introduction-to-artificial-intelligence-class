@@ -1,0 +1,31 @@
+(a) Napiši formule za izračun vzvratne hevristične ocene H(N) vozlišča N v AND/OR drevesu za
+tri primere: ko je (1) N list drevesa iskanja, (2) N je OR vozlišče, ki ima že generirane
+disjunktivno povezane naslednike), (3) ko je N AND vozlišče, ki ima že generirane konjunktivno povezane naslednike.
+
+(b) V ekspertnih sistemih je znanje pogosto predstavljeno s pravili oblike if-then. Pojasni, kaj v
+takih sistemih pomenita vprašanji tipa "Kako?" in "Zakaj?". Na kakšen način sistem generira
+odgovore na ti dve vprašanji uporabnika (angl. "How explanation" in "Why explanation")?
+
+
+(c) Naj bo RG rezultat regresiranja ciljev G skozi akcijo A. RG je potrebni pogoj za kaj?
+
+(d) Naj bo RG rezultat regresiranja ciljev G skozi akcijo A. Kaj mora veljati, da je RG U {g}
+rezultat regresiranja ciljev G U {g} skozi akcijo A? (Tu “U” pomeni unija množic).
+
+(e) Kaj v strojnem učenju pomeni izraz »pristranskost« (angl. bias)? Navedi dve vrsti
+pristranskosti in ju na kratko razloži.
+
+(c) Zapiši vsaj tri različne formule za ocenjevanje verjetnosti dogodka na osnovi eksperimentalnih
+podatkov. Izvedli smo vsega N poskusov, pri čemer se je dogodek zgodil v n poskusih. Razloži
+uporabljane simbole v formulah in za vsako od formul na kratko podaj njihove prednosti in slabosti.
+
+(e) Kaj pomeni v preiskovalnih algoritmih, da je ocenitvena funkcija monotona? V katerem algoritmu je
+ta lastnost pomembna in zakaj?
+
+(d) Definiraj akcijsko shemo moveAll(Block, From, To), ki premakne kocko Block skupaj z vsemi
+kockami, ki so na njej. Gre torej za premikanje celotnega stolpa.
+
+moveAll(Block, From, To)
+conds: on(Block, From), c(To)
+adds: on(Block, To), c(From)
+dels: on(Block, From), c(To)
